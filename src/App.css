@@ -13,7 +13,7 @@
 }
 
 .nav-logo > img {
-  max-height: 1em;
+  max-height: 2.3em;
 }
 
 .about {
@@ -36,6 +36,7 @@
   color: black;
   border-radius: 5.15625px;
   padding: 4px;
+  font-size: 2.3em;
 }
 
 .nav-section:hover {
