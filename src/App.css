@@ -16,6 +16,18 @@
   max-height: 1em;
 }
 
+.about {
+  background-color: #FFB800;
+}
+
+.program {
+  background-color: #02C294;
+}
+
+.credits {
+  background-color: #FFFFFF;
+}
+
 .nav-links {
   display: flex;
 }
@@ -55,75 +67,90 @@
 .title {
   font-size:1em;
   line-height: 1em;  
+  margin-bottom: 5vh;
 }
 
 .headline {
   font-size: 2.3em;
   line-height: 0.8em;
   padding: 8px;
+  border-radius: 20px;
   display: flex;
   align-items:center;
   margin: 0;
-  border-radius: 20px;
 }
 
 .bodytext {
   font-size:1em;
   line-height: 1em; 
+  width:40vw;
 }
 
-/* about */
+/* big section chunks */
+.section {
+  margin: 5vh 0;
+}
+/* about section*/
 .section-about {
-  display: grid;
-  grid-template-columns: repeat(24,1fr);
-  grid-template-rows:repeat(7,1fr);
-  column-gap: 8px;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 5vw;
   background: black;
 }
 
-#headline-about {
+.headline-about {
   background: #FFB800;
-  grid-column: 1 / 13;
-  grid-row: 2/7;
 }
 
-#title-about {
+.title-about {
   color:#FFB800;  
-  grid-row: 2/3;
-  grid-column: 14 / 25;
+  
 }
 
-#bodytext-about {
+.bodytext-about {
   color:#FFB800;  
-  grid-column: 14 / 25;
-  grid-row: 3/7;
 }
 
-/* program */
+/* program section */
 .section-program {
-  display: grid;
-  grid-template-columns: repeat(24,1fr);
-  grid-template-rows:repeat(3,1fr);
-  column-gap: 8px;
-  background: black;
+  display: flex;
+  flex-direction: column;
+  /* background: black; */
 }
 
-#title-program {
+.title-program {
   color: #02C294;
-  grid-column: 1 / 9;
-  grid-row: 1/2;
 }
 
-#headline-program {
-  background: #02C294;
-  grid-column: 1 / 9;
-  grid-row: 2/3;
+/* time */
+.section-time {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 5vw;
+  margin: 2.5vh 0;
 }
 
-#bodytext-program {
+.headline-time {
+  border-radius: 10px;
+  background: #02C294;  
+}
+
+.bodytext-program {
   color: #02C294;
-  grid-column: 14 / 21;
-  grid-row: 2/3;
+}
+/* performers */
+.section-performers {
+  margin: 2.5vh 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-performers {
+  border-radius: 10px;
+  margin: 0;
+  display: inline;
 }
 /*  */
 /* .section-head {
@@ -142,16 +169,23 @@
 } */
 
 
+.program-red {
+  background-color: #FF2828;
+}
 
-.about {
+.program-magenta {
+  background-color: #E353E5;
+}
+
+.program-yellow{
   background-color: #FFB800;
-
 }
 
-.program {
-  background-color: #02C294;
+.program-blue {
+  background-color: #287EFF
 }
 
-.credits {
+
+.program-white {
   background-color: #FFFFFF;
 }

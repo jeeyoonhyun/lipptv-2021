@@ -16,7 +16,7 @@ html, body, #root {
   background-color: black;
 
   font-family: 'Levit_Blended';
-  font-size: 32px;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
