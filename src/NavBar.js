@@ -1,10 +1,21 @@
 function NavBar() {
   return (
-    <nav className="nav-bar">
-      <a href='#watch' className="nav-section">WATCH</a>
-      <a href='#about' className="nav-section">ABOUT</a>
-      <a href='#program' className="nav-section">PROGRAM</a>
-      <a href='#credit' className="nav-section">CREDIT</a>
+      <nav className="nav-bar block">
+          <a href="#home" className="nav-logo">
+            <img src="logo.png" alt="LIPP TV logo" />
+          </a>
+
+          <ul className="nav-links">
+          <li>
+            <a href='#about' className="nav-section about">ABOUT</a>
+          </li>
+          <li>
+            <a href='#program' className="nav-section program" >PROGRAM</a>
+          </li>
+          <li>
+            <a href='#credits' className="nav-section credits">CREDITS</a>
+          </li>
+        </ul>
     </nav>
   );
 }
