@@ -5,7 +5,8 @@ function Program() {
             {/* time */}
             <div className='section-time'>
                 <div className='headline headline-time' >7:30 PM – 8:00 PM</div>
-                <div className='bodytext bodytext-program'>INTRODUCTION WITH LIPP TV HOST PROFESSOR LIPP + ADVERTISMENT BATCH #1</div>
+                <div className='bodytext bodytext-program'>INTRODUCTION WITH LIPP TV HOST PROFESSOR LIPP
+                <br></br>+ ADVERTISMENT BATCH #1</div>
             </div>
             {/* accordion menus */}
             <div className='section-performers'>
@@ -18,7 +19,7 @@ function Program() {
             <div className='section-time'>
                 <div className='headline headline-time'>I8:00 PM – 8:30 PM</div>
                 <div className='bodytext bodytext-program'>INTRODUCTION WITH LIPP TV HOST PROFESSOR LIPP 
-                + ADVERTISMENT BATCH #2</div>
+                <br></br>+ ADVERTISMENT BATCH #2</div>
             </div>
             {/* accordion menus */}
             <div className='section-performers'>

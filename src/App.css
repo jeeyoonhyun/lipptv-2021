@@ -123,6 +123,11 @@
   color: #02C294;
 }
 
+.title.title-program {
+  /* reduce 'program' title to 2.5vh */
+  margin-bottom:2.5vh;
+}
+
 /* time */
 .section-time {
   display: inline-flex;
@@ -134,23 +139,28 @@
 
 .headline-time {
   border-radius: 10px;
+  padding: 4px;
   background: #02C294;  
 }
 
 .bodytext-program {
   color: #02C294;
+  display: flex;
+  align-items: center;
 }
 /* performers */
 .section-performers {
   margin: 2.5vh 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .program-performers {
   border-radius: 10px;
-  margin: 0;
-  display: inline;
+  padding: 4px;
+  display: flex;
+  margin: 0 auto 0 0 ;
 }
 /*  */
 /* .section-head {
