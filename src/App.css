@@ -189,7 +189,7 @@ input.accordion-checkbox {
   color: black;
   background: white;
   -webkit-transition: .4s;
-  transition: .4s;
+  transition: .4s; 
   border-radius: 10px;
 }
 
