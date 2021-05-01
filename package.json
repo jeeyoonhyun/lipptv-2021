@@ -2,7 +2,7 @@
   "name": "lipptv-2021",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://jeeyoonhyun.github.io/lipptv-2021/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
