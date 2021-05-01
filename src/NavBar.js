@@ -1,19 +1,21 @@
+import Logo from './Logo'
+
 function NavBar() {
   return (
-      <nav className="nav-bar block">
-          <a href="#home" className="nav-logo">
-            <img src="logo.png" alt="LIPP TV logo" />
+      <nav className="nav-bar">
+          <a href="/" className="nav-links">
+            <Logo></Logo>
           </a>
 
           <ul className="nav-links">
           <li>
-            <a href='#about' className="nav-section about">ABOUT</a>
+            <a href='#about' className="nav-section text-big about">ABOUT</a>
           </li>
           <li>
-            <a href='#program' className="nav-section program" >PROGRAM</a>
+            <a href='#program' className="nav-section text-big program" >PROGRAM</a>
           </li>
           <li>
-            <a href='#credits' className="nav-section credits">CREDITS</a>
+            <a href='#credits' className="nav-section text-big credits">CREDITS</a>
           </li>
         </ul>
     </nav>

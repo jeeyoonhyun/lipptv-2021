@@ -1,42 +1,69 @@
+/* GENERAL */
+.text-big {
+  font-size: 100px;
+  line-height: 72px;
+  text-transform: capitalize;
+  color: black;
+  display: inline
+}
+
+.text-small {
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+.box-small {
+  border-radius: 10px;
+  padding: 4px;
+  display: inline-block;
+}
+
+.box-big {
+  border-radius: 20px;
+  padding: 8px;
+  display: inline-block;
+}
+
+/* LOGO */
+.logo-lipp {
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.logo-tv {
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #C4C4C4;
+}
+
 /* nav bar */
 .nav-bar {
+  user-select: none;
   position: sticky;
   top: 0;
-
-  height: 10vh;
-  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5466561624649859) 35%, rgba(0,0,0,1) 100%);
+  height: 40vh;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);;
+  padding: 2.5%;
 
   /* Content is centered horizontally */
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-.nav-logo > img {
-  max-height: 2.3em;
-}
-
-.about {
-  background-color: #FFB800;
-}
-
-.program {
-  background-color: #02C294;
-}
-
-.credits {
-  background-color: #FFFFFF;
+  align-items: flex-start;
 }
 
 .nav-links {
   display: flex;
 }
 
+.nav-bar img {
+  max-height: 70px;
+}
+
 .nav-section {
-  color: black;
-  border-radius: 5.15625px;
+  border-radius: 10px;
   padding: 4px;
-  font-size: 2.3em;
 }
 
 .nav-section:hover {
@@ -44,15 +71,75 @@
   cursor: pointer;
 }
 
+/* SECTION COLORS */
+.about {
+  background-color: #FFB800;
+}
+
+.bodytext-about {
+  color:#FFB800;  
+}
+
+.program {
+  background-color: #02C294;
+}
+
+.bodytext-program {
+  color: #02C294;
+}
+
+.credits {
+  background-color: #FFFFFF;
+}
+
+.bodytext-credits {
+  color: #FFFFFF;
+}
+
+/* SECTIONS */
+.section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.section-inner {
+  width: 90%;
+  margin: 0 2.5%;
+}
+
+.section-inner-half {
+  width: 45%;
+  margin: 0 2.5%;
+}
+
+.section-inner-third {
+  width: 28%;
+  margin: 0 2.5%;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.credits-individual {
+  margin-bottom: 32px;
+}
+
+/* override */
+.program-heading {
+  margin-bottom: 0;
+}
+
+.about-heading {
+  margin-top: 0;
+}
+
 /* container */
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.block {
-  padding: 0 2.5vw;
 }
 
 /* twitch player */
@@ -64,122 +151,7 @@
   margin: auto;
 }
 
-/* global elements */
-.title {
-  font-size:1em;
-  line-height: 1em;  
-  margin-bottom: 5vh;
-}
-
-.headline {
-  font-size: 2.3em;
-  line-height: 0.8em;
-  padding: 8px;
-  border-radius: 20px;
-  display: flex;
-  align-items:center;
-  margin: 0;
-}
-
-.bodytext {
-  font-size:1em;
-  line-height: 1em; 
-  width:40vw;
-}
-
-/* big section chunks */
-.section {
-  margin: 5vh 0;
-}
-/* about section*/
-.section-about {
-  display: inline-flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 5vw;
-  background: black;
-}
-
-.headline-about {
-  background: #FFB800;
-}
-
-.title-about {
-  color:#FFB800;  
-  
-}
-
-.bodytext-about {
-  color:#FFB800;  
-}
-
-/* program section */
-.section-program {
-  display: flex;
-  flex-direction: column;
-  /* background: black; */
-}
-
-.title-program {
-  color: #02C294;
-}
-
-.title.title-program {
-  /* reduce 'program' title to 2.5vh */
-  margin-bottom:2.5vh;
-}
-
-/* time */
-.section-time {
-  display: inline-flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 5vw;
-  margin: 2.5vh 0;
-}
-
-.headline-time {
-  border-radius: 10px;
-  padding: 4px;
-  background: #02C294;  
-}
-
-.bodytext-program {
-  color: #02C294;
-  display: flex;
-  align-items: center;
-}
-/* performers */
-.section-performers {
-  margin: 2.5vh 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.program-performers {
-  border-radius: 10px;
-  padding: 4px;
-  display: flex;
-  margin: 0 auto 0 0 ;
-}
-/*  */
-/* .section-head {
-  width: 80%;
-  margin: 20px 10%;
-  padding: 30px 0;
-  text-align: center;
-}
-
-.section-body {
-  width: 80%;
-  margin: 20px 10%;
-  padding: 30px;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-} */
-
-
+/* COLORS */
 .program-red {
   background-color: #FF2828;
 }
@@ -193,9 +165,8 @@
 }
 
 .program-blue {
-  background-color: #287EFF
+  background-color: #287EFF;
 }
-
 
 .program-white {
   background-color: #FFFFFF;

@@ -1,5 +1,7 @@
 @font-face {
   font-family: 'Levit_Blended';
+  font-weight: 400 700;
+  descent-override: 1%;
   src: url(./Levit_Blended-Bold.otf) format("opentype");
 }
 
@@ -16,7 +18,7 @@ html, body, #root {
   background-color: black;
 
   font-family: 'Levit_Blended';
-  font-size: 20px;
+  font-size: 32px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,6 +27,7 @@ a {
   text-decoration: none;
 }
 
-li {
+ul, li {
   list-style-type: none;
+  margin: 0;
 }
