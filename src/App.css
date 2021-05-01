@@ -89,6 +89,7 @@
 
 /* big section chunks */
 .section {
+  width: 100%;
   margin: 5vh 0;
 }
 /* about section*/
@@ -114,6 +115,7 @@
 }
 
 /* program section */
+
 .section-program {
   display: flex;
   flex-direction: column;
@@ -149,12 +151,25 @@
   display: flex;
   align-items: center;
 }
+
 /* performers */
+
 .section-performers {
   margin: 2.5vh 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* overflow: hidden; */
+}
+
+input.accordion-checkbox {
+  display: none;
+}
+
+.accordion-block {
+  /* overflow: hidden; */
+  padding: 0%;
+  margin: 0;
 }
 
 .program-performers {
@@ -162,7 +177,27 @@
   padding: 4px;
   display: flex;
   margin: 0 auto 0 0 ;
+  cursor: pointer;
 }
+
+.program-performers:hover{
+  background: white;
+}
+
+.accordion-content {
+  max-height: 0;
+  color: black;
+  background: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 10px;
+}
+
+input:checked ~ .accordion-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
 /*  */
 /* .section-head {
   width: 80%;
