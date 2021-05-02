@@ -1,21 +1,23 @@
 import Logo from './Logo'
 
-function NavBar() {
+function NavBar(props) {
   return (
       <nav className="nav-bar">
-          <a href="/" className="nav-links">
-            <Logo></Logo>
-          </a>
+        <a href="." className="logo-link">
+          <Logo></Logo>
+        </a>
 
-          <ul className="nav-links">
+        {/* <ul><div className='live-now text-big'>&nbsp;&nbsp;&nbsp;</div><div className='live-now text-big'>LIVE</div></ul> */}
+
+        <ul className="nav-links">
           <li>
-            <a href='#about' className="nav-section text-big about">ABOUT</a>
+            <div onClick={() => props.onNavClick('#about')} className="nav-section text-big about">ABOUT</div>
           </li>
           <li>
-            <a href='#program' className="nav-section text-big program" >PROGRAM</a>
+            <div onClick={() => props.onNavClick('#program')} className="nav-section text-big program" >PROGRAM</div>
           </li>
           <li>
-            <a href='#credits' className="nav-section text-big credits">CREDITS</a>
+            <div onClick={() => props.onNavClick('#credits')} className="nav-section text-big credits">CREDITS</div>
           </li>
         </ul>
     </nav>
