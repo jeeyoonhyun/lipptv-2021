@@ -24,6 +24,7 @@ function Credits() {
             <div className='section-inner-third bodytext-credits'>
                 <div className='text-small credits-individual'><a href='http://teiblow.com/'>Tei Blow</a> & <a href='http://www.alisantana.com/'>Ali Santana</a><br></br>Music (Special Guests)</div>
                 <div className='text-small credits-individual'><a href='https://cezar.io/'>Cezar Mocan</a> & Jamie Shi & Alan Winslow & Stuti Mohgaonkar<br></br>Special Thanks</div>
+                <div className='text-small credits-individual'>Typeface: Levit Blended<br></br>© Michal Sahar and Amir Avraham </div>
             </div>
 
             <div className='footer'></div>
