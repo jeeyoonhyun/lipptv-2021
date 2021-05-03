@@ -223,6 +223,14 @@
   .nav-bar {
     height: 20vh;
   }
+
+  .program-title {
+    margin-bottom: 1em;
+  }
+
+  .program-title.text-small {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 768px) {
