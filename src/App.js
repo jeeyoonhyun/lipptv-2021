@@ -22,7 +22,7 @@ function App() {
       <NavBar onNavClick={onNavClick}></NavBar>
       <div className='content'>
         {/* twitch video */}
-        {/* <ReactTwitchEmbedVideo targetClass='section-twitch' channel='lipp_tv_' layout='video' width='100%' height='500px'></ReactTwitchEmbedVideo> */}
+        <ReactTwitchEmbedVideo targetClass='section-twitch' channel='lipp_tv_' layout='video' width='95%'></ReactTwitchEmbedVideo>
         {/* about */}
         <About></About>
         {/* program */}
