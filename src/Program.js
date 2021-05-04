@@ -93,6 +93,7 @@ function Program() {
                 <div className='box-small program-blue'>
                     <div className='text-big'>▷ &#60; Find Your Potential &#62; Hosted By Abby Lee + LIU ENTUNG + Allie Yu</div>
                 </div>
+                <img className = 'gif' src="https://media.giphy.com/media/RzLQOg0NLaQu0FgPNg/giphy.gif" alt="glitched and pixelated palms with the letter 'we' on it"></img>
             </div>
 
 
